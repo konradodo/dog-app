@@ -1,0 +1,17 @@
+.dog-button {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .4s;
+
+  &:hover {
+    filter: brightness(1.5);
+  }
+}
